@@ -60,7 +60,7 @@ This will perform a DNS lookup on `google.com`. Soon, you will choose your domai
 
 ---
 
-## 💡 Example Output
+## Example Output
 
 ```
 IP: soon
@@ -71,6 +71,6 @@ Aliases: soon
 
 ---
 
-## 📜 License
+## License
 
 MIT - Free to use, modify, and redistribute.
