@@ -1,7 +1,7 @@
-import SRC.scan
+from SRC.scan import dns_lookup
 
 def main():
-    SRC.scan.dns_lookup("image.pobo.space")
+    dns_lookup("image.pobo.space")
     return 0
 
 if __name__ == "__main__":
