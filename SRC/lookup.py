@@ -7,11 +7,11 @@ def get_ip(string):
     except Exception:
         return False
 
-def get_ipx(string):
+def get_all_ips(string):
     try:
         data = socket.gethostbyname_ex(string)
-        ipx = repr(data[2])
-        return ipx
+        all_ips = repr(data[2])
+        return all_ips
     except Exception:
         return False
 
