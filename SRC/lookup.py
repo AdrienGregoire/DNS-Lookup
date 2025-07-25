@@ -1,3 +1,10 @@
+##
+## PROJECT, 2025
+## lookup.py
+## File description:
+## all get-functions
+##
+
 import socket
 
 def get_ip(string):
