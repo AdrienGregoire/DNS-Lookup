@@ -1,5 +1,5 @@
 ##
-## PROJECT, 2025
+## SOLO PROJECT, 2025
 ## main.py
 ## File description:
 ## the main file of the project

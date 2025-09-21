@@ -1,5 +1,5 @@
 ##
-## PROJECT, 2025
+## SOLO PROJECT, 2025
 ## scan.py
 ## File description:
 ## call all get-functions
