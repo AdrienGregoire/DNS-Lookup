@@ -2,24 +2,24 @@
 
 ## Description
 
-Voici mon repo contenant un projet simple de DNS Lookup en Python.
+Voici mon repo contenant un projet simple de **DNS Lookup en Python**.
 Ce projet a pour but d'effectuer des recherches DNS basiques (récupération d'IP, résolution inverse, alias, etc.) pour un domaine donné.
-L'objectif était de créer un outil léger, facile à lire, qui permet d’explorer le module socket de Python et de manipuler des données réseau.
+L'objectif était de créer un outil léger, facile à lire, qui permet d’explorer le module <mark>socket</mark> de Python et de manipuler des données réseau.
 
 ## 📚 Contenu
 
 Ce repo contient :
-- SRC/lookup.py : Les fonctions permettant de récupérer les informations DNS (IP, host, alias).
-- SRC/scan.py : La fonction principale dns_lookup qui orchestre l'appel des fonctions de lookup.py.
-- main.py : Le point d'entrée du programme.
+- <mark>SRC/lookup.py</mark> : Les fonctions permettant de récupérer les informations DNS (IP, host, alias).
+- <mark>SRC/scan.py</mark> : La fonction principale <mark>dns_lookup</mark> qui orchestre l'appel des fonctions de <mark>lookup.py</mark>.
+- <mark>main.py</mark> : Le point d'entrée du programme.
 
 ## Compétences développées
 
-- Utilisation du module socket de Python
+- Utilisation du module <mark>socket</mark> de Python
 - Résolution DNS (IP, hostnames, alias)
 - Organisation du code avec des modules
 - Création d’un petit projet avec une structure claire et évolutive
-- Retour d'erreurs simple avec try/except
+- Retour d'erreurs simple avec <mark>try/except</mark>
 
 ## 📁 Structure du projet
 ```
@@ -31,12 +31,13 @@ Ce repo contient :
 ```
 
 ## Lancer le projet
+
 Il suffit d'exécuter le script principal avec Python :
 ```bash
 python3 main.py
 ```
-Par défaut, il va exécuter un dns_lookup sur google.com.
-Tu peux facilement modifier le domaine dans main.py :
+Par défaut, il va exécuter un <mark>dns_lookup</mark> sur <mark>google.com</mark>.
+Tu peux facilement modifier le domaine dans <mark>main.py</mark> :
 ```python
 dns_lookup("example.com")
 ```
@@ -53,4 +54,5 @@ Aliases     : '[]'
 ```
 
 ## Licence
+
 Aucune.
