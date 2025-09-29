@@ -42,7 +42,7 @@ dns_lookup("example.com")
 ```
 
 ## Exemple de sortie
-```python3
+```bash
 ========== DNS LOOKUP ==========
 Domain/IP   : google.com
 IP Address  : 142.250.190.14
