@@ -13,7 +13,7 @@ def main():
         dns_lookup(sys.argv[1])
     except IndexError:
         print("please enter a domain name")
-    return 0
+    sys.exit(0)
 
 if __name__ == "__main__":
     main()
