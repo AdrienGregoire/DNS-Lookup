@@ -34,13 +34,9 @@ Ce repo contient :
 
 Il suffit d'exécuter le script principal avec Python :
 ```bash
-python3 main.py
+python3 main.py google.com
 ```
-Par défaut, il va exécuter un <mark>dns_lookup</mark> sur <mark>google.com</mark>.
-Tu peux facilement modifier le domaine dans <mark>main.py</mark> :
-```python
-dns_lookup("example.com")
-```
+Le nom de domaine peut changer.
 
 ## Exemple de sortie
 ```bash
