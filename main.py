@@ -6,9 +6,13 @@
 ##
 
 from SRC.scan import dns_lookup
+import sys
 
 def main():
-    dns_lookup("google.com")
+    try:
+        dns_lookup(sys.argv[1])
+    except IndexError:
+        print("please enter a domain name")
     return 0
 
 if __name__ == "__main__":
